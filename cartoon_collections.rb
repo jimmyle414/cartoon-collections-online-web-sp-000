@@ -5,19 +5,19 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet(planeteer_calls) # code an argument here
+def summon_captain_planet(planeteer_calls) 
   planeteer_calls.collect do |call|
     call.capitalize << "!"
   end
 end
 
-def long_planeteer_calls(long_calls) # code an argument here
+def long_planeteer_calls(long_calls) 
   long_calls.any? do |call|
     call.length > 4
  end
 end
 
-def find_the_cheese(array) # code an argument here
+def find_the_cheese(array) 
   i = 0 
   cheese_types = ["cheddar", "gouda", "camembert"]
   while i < cheese_types.length
